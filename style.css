@@ -798,11 +798,12 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    background-color: #AAB77B;
+    height: 200px;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color:black!important;
 }
 
 .icon-dark-slate-blue {
