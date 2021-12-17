@@ -91,11 +91,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -134,7 +129,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(87, 87, 255, .6);
 }
 
 .d-bloc .a-btn:hover,
@@ -151,7 +146,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(87, 255, 255, 1);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -477,7 +472,7 @@ button {
 }
 
 .icon-md {
-    font-size: 50px!important;
+    font-size: 30px!important;
 }
 
 .icon-lg {
@@ -678,8 +673,14 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1em;
 }
+
+.text-img
+{
+    font-size: 1.6em;
+}
+
 
 .tight-width-whitespace {
     max-width: 600px;
