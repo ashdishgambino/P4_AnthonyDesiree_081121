@@ -54,7 +54,7 @@ a:hover {
 }
 
 .bloc-sm {
-    padding: 20px 50px;
+    padding: 15px 30px;
 }
 
 .bg-center,
@@ -73,9 +73,7 @@ a:hover {
     background-size: auto!important;
 }
 
-.bg-repeat {
-    background: repeat;
-}
+
 
 .bg-t-edge {
     background: top no-repeat;
@@ -91,9 +89,6 @@ a:hover {
     right: 0;
 }
 
-.b-parallax {
-    background-attachment: fixed;
-}
 
 .d-bloc {
     color: rgba(255, 255, 255, .7);
@@ -149,9 +144,7 @@ a:hover {
     color: rgba(87, 255, 255, 1);
 }
 
-.d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1);
-}
+
 
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
@@ -357,6 +350,15 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -689,7 +691,7 @@ p {
 
 .h1 {
     font-size: 20px;
-    font-family: "Open Sans";
+    font-family: "Arial, Helvetica, sans-serif;";
 }
 
 .cta-hero {
@@ -769,19 +771,19 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #000000;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #384368c9;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color:#30298b!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #30298b;
     color: #FFFFFF!important;
 }
 
@@ -808,25 +810,21 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
+    color: #30298b!important;
     border-color: #364577!important;
-}
-
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+    height: 400px;
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+
+/*******************************************************************************/
+/*******************************************************************************/
 
 @media (max-width: 1024px) {
     .bloc {
@@ -892,6 +890,8 @@ h4 {
     }
 }
 
+/*******************************************************************************/
+/*******************************************************************************/
 @media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
@@ -1043,3 +1043,6 @@ h4 {
         text-align: center;
     }
 }
+
+/*******************************************************************************/
+/*******************************************************************************/
