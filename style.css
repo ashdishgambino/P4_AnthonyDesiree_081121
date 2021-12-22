@@ -352,13 +352,9 @@ a:hover {
 }
 
 
-
-
-
-
-
-
-
+.redimension {
+    width: 270px;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
