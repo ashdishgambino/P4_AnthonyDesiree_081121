@@ -424,7 +424,8 @@ nav .caret {
 
 .mg-md {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    
 }
 
 .mg-lg {
@@ -664,7 +665,7 @@ a {
 }
 
 p {
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 
@@ -814,11 +815,11 @@ h4 {
     height: 180px;
 }
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");  
+    background-image: url("img/Webp/la-chouette-agence-banniere.webp");  
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/Webp/image-de-presentation.webp");
 }
 
 /*******************************************************************************/
