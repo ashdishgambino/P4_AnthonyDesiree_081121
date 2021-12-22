@@ -19,14 +19,7 @@ a:hover {
     cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}
+
 
 .bloc {
     width: 100%;
@@ -755,7 +748,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #384368c9;
     padding: 40px 40px 40px 40px;
 }
 
@@ -776,8 +769,12 @@ h4 {
     background-color: #384368c9;
 }
 
-.tc-white {
+.tc-blue {
     color:#30298b!important;
+}
+
+.text-white {
+    color: white;
 }
 
 .btn-atomic-tangerine {
